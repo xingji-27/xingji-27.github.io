@@ -193,7 +193,7 @@
   const ipt = document.querySelector('#search-input')
   const btn = document.querySelector('#search-btn')
   const layer = document.querySelector('#search-layer')
-  const posts = JSON.parse(`[{"title":"Arch笔记","cover":"https://t.alcy.cc/ycy","path":"2024/06/08/Arch笔记/"},{"title":"qqnt真NT","cover":"https://t.alcy.cc/ycy","path":"2024/06/10/qqnt真NT/"},{"title":"MuMu模拟器代理","cover":"https://t.alcy.cc/ycy","path":"2024/06/29/MuMu模拟器代理/"}]`)
+  const posts = JSON.parse(`[{"title":"Arch笔记","cover":null,"path":"2024/06/08/Arch笔记/"},{"title":"MuMu模拟器代理","cover":null,"path":"2024/06/29/MuMu模拟器代理/"},{"title":"qqnt真NT","cover":null,"path":"2024/06/30/qqnt真NT/"}]`)
   ipt.addEventListener('keyup', e => {
     if (e.key === 'Enter') {
       handleSearch()
@@ -264,7 +264,7 @@
         </a>
         <a href="/tags">
           <div>
-            <span>3</span>
+            <span>2</span>
             <span>标签</span>
           </div>
         </a>
@@ -352,9 +352,9 @@
   <div class="index-left">
     
       <div class="index-article">
-        <!-- <img class="index-article--cover" src="https://t.alcy.cc/ycy" alt=""> -->
+        <!-- <img class="index-article--cover" src="/imgs/default-cover.webp" alt=""> -->
         <div class="index-article--box">
-          <img class="index-article--cover" data-cover="https://t.alcy.cc/ycy" alt="MuMu模拟器代理" />
+          <img class="index-article--cover" data-cover="https://t.alcy.cc/ycy?postId=1" alt="MuMu模拟器代理" />
         </div>
         <div class="index-article--content">
           <a href="/2024/06/29/MuMu%E6%A8%A1%E6%8B%9F%E5%99%A8%E4%BB%A3%E7%90%86/">MuMu模拟器代理 </a>
@@ -377,7 +377,7 @@
   <div class="index-right">
     <div class="index-right-wrapper">
       
-      <ul class="tags" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%AE%B0%E5%BD%95/" rel="tag">记录</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%90%90%E6%A7%BD/" rel="tag">吐槽</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Arch/" rel="tag">Arch</a></li></ul>
+      <ul class="tags" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%AE%B0%E5%BD%95/" rel="tag">记录</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Arch/" rel="tag">Arch</a></li></ul>
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/06/">2024年06月</a><span class="archive-list-count">3</span></li></ul>
     </div>
   </div>
